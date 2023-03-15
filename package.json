@@ -1,0 +1,20 @@
+{
+  "name": "rspack-react-starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "rspack": "B=rspack rspack build -c config.named.js && B=rspack rspack build -c config.deterministic.js",
+    "webpack": "B=webpack webpack build -c config.named.js && B=webpack webpack build -c config.deterministic.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@rspack/cli": "latest",
+    "webpack-cli": "^5.0.1",
+    "webpack": "^5.74.0"
+  }
+}
